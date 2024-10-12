@@ -345,6 +345,11 @@ function Schema:PlayerJoinedClass(ply, class, oldClass)
 	end
 
 	local classData = ix.class.Get(class)
+
+	if not ( classData ) then
+		return
+	end
+
 	if ( classData.bodygroups ) then
 		for k, v in pairs(classData.bodygroups) do
 			if ( isstring(k) ) then
