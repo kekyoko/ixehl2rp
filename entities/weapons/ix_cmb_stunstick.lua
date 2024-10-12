@@ -10,7 +10,7 @@ end
 
 SWEP.Category = "ix: HL2 RP"
 SWEP.Author = "Chessnut"
-SWEP.Instructions = "Primary Fire: Stun.\nALT + Primary Fire: Toggle stun.\nSecondary Fire: Push/Knock."
+SWEP.Instructions = "Primary Fire: Stun.\nSecondary Fire: Push/Knock.\nShift + Secondary Fire: Toggle stun."
 SWEP.Purpose = "Hitting things and knocking on doors."
 SWEP.Drop = false
 
@@ -161,7 +161,7 @@ function SWEP:PrimaryAttack()
 	end
 
 	self.Owner:SetAnimation(PLAYER_ATTACK1)
-    
+
 	self.Owner:LagCompensation(true)
 		local data = {}
 			data.start = self.Owner:GetShootPos()
