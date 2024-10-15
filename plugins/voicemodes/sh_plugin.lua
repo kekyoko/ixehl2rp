@@ -1,6 +1,6 @@
 local PLUGIN = PLUGIN
 
-PLUGIN.name = "Vocie Modes"
+PLUGIN.name = "Voice Modes"
 PLUGIN.author = "eon"
 PLUGIN.license = [[
 Copyright 2024 eon (bloodycop)
@@ -37,7 +37,7 @@ ix.command.Add("SetVoiceMode", {
         if not ( IsValid(ply) ) then
             return
         end
-        
+
         local char = ply:GetCharacter()
 
         if not ( char ) then
@@ -60,7 +60,7 @@ if ( SERVER ) then
         if not ( IsValid(listener) or IsValid(talker) ) then
             return
         end
-        
+
         local talkerChar = talker:GetCharacter()
 
         if not ( talkerChar ) then
