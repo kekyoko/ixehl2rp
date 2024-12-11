@@ -15,7 +15,7 @@ SWEP.Instructions 			= "Primary Fire: Sweep";
 SWEP.Purpose 				= "To sweep up dirt and trash.";
 SWEP.Contact 				= ""
 
-SWEP.Category				= "Vort Swep" 
+SWEP.Category				= "Vort Swep"
 SWEP.Slot					= 3
 SWEP.SlotPos				= 5
 SWEP.Weight					= 5
@@ -42,12 +42,12 @@ end
 function SWEP:Deploy()
 	if (SERVER) then
 		self.Owner:DrawViewModel(false)
-	
+
 
 	if (!self.Owner:Alive()) then return false end
-	if (!self.Owner:GetCharacter():IsVortigaunt()) then return false end
+	if (!self.Owner:IsVortigaunt()) then return false end
 
-	
+
 	self.Owner.broomModel = ents.Create("prop_dynamic")
 	self.Owner.broomModel:SetModel("models/props_c17/pushbroom.mdl")
 	self.Owner.broomModel:SetMoveType(MOVETYPE_NONE)
@@ -91,7 +91,7 @@ end
 
 
 function SWEP:PrimaryAttack()
-	
+
 	if (!self.Owner:Alive()) then return false end
 	if (!self.Owner:GetCharacter():IsVortigaunt()) then return false end
 
