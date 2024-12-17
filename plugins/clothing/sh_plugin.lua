@@ -24,7 +24,7 @@ function PLUGIN:Think()
         if not ( char ) then
             return
         end
-        
+
         local inv = char:GetInventory()
 
         if not ( inv ) then // bots :d
@@ -50,3 +50,5 @@ function PLUGIN:Think()
         v.nextClothingThink = CurTime() + 1
     end
 end
+
+ix.util.Include("sv_hooks.lua")
