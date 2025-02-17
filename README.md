@@ -1,17 +1,19 @@
-# ix: Enhanced Half-Life 2 Roleplay
-ix: Enhanced Half-Life 2 Roleplay is a project started by [eon (bloodycop)](https://github.com/bloodycop7) on the [Helix Framework](https://github.com/NebulousCloud/helix), it was made to provide more core functions that you see in Half-Life 2.
+# ix: Улучшенный Ролевой Игровой Мод Half-Life 2
+ix: Улучшенный Ролевой Игровой Мод Half-Life 2 — это проект, начатый [eon (bloodycop)](https://github.com/bloodycop7) на [Helix Framework](https://github.com/NebulousCloud/helix), созданный для предоставления дополнительных основных функций, которые вы видите в Half-Life 2.
 
-The code is also open-source with a license, therefore you are allowed to modify it. Keep appropriate credit!\
-**Keep in mind you do require a bit of programming experience to understand what you're reading/modifying!**
-# Required Addons for Usage (Unless you replace them)
-> [!IMPORTANT]
+Код также является открытым и имеет лицензию, поэтому вы можете его модифицировать. Не забудьте указать соответствующие авторские права!\
+**Имейте в виду, что вам потребуется немного опыта программирования, чтобы понять, что вы читаете/модифицируете!**
+
+# Необходимые аддоны для использования (если вы их не замените)
+> [!ВАЖНО]
 > [Helix Content](https://steamcommunity.com/sharedfiles/filedetails/?id=1267236756)\
 > [TFA: Project HL2 MMod Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2665902404)\
 > [Need A Hand](https://steamcommunity.com/sharedfiles/filedetails/?id=3347665507)\
 > [Entropy : Zero 2 - Metropolice Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2854473898)\
 > [Mapbase Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=3063666429)
-# Recommended Addons for Usage
-> [!TIP]
+
+# Рекомендуемые аддоны для использования
+> [!СОВЕТ]
 > [TFA: Aim FX](https://steamcommunity.com/sharedfiles/filedetails/?id=2834386148)\
 > [Hunter-Chopper Carpet Bombing](https://steamcommunity.com/sharedfiles/filedetails/?id=466842084)\
 > [Strider & Gunship Cannon](https://steamcommunity.com/sharedfiles/filedetails/?id=464423406)\
@@ -25,26 +27,22 @@ The code is also open-source with a license, therefore you are allowed to modify
 > [Extended Spawnmenu](https://steamcommunity.com/sharedfiles/filedetails/?id=104603291)\
 > [Extended AI Navigation](https://steamcommunity.com/sharedfiles/filedetails/?id=3048721100)\
 > [GlowLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3279071164)\
-> [GlowLib - Entropy : Zerp 2 - Metropolice Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3281945004)
+> [GlowLib - Entropy : Zero 2 - Metropolice Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3281945004)
 
-**Fonts:**\
-[Raju Regular](https://www.onlinewebfonts.com/download/ab87eec92788f9572b9c13028bf2edb6) - Main Schema Font\
-[Frak](https://fontmeme.com/fonts/frak-font/) - Combine Font
+**Шрифты:**\
+[Raju Regular](https://www.onlinewebfonts.com/download/ab87eec92788f9572b9c13028bf2edb6) - Основной шрифт схемы
+[Frak](https://fontmeme.com/fonts/frak-font/) - Шрифт Combine
 
-# Help Needed!
-Hello, as of currently no contribution seems necessary, don't get your hopes down tho! If you feel like something can be overhauled / made more optimized, then free feel to do so!
+# Нужна помощь!
+Здравствуйте, в данный момент никаких вкладов не требуется, не расстраивайтесь! Если вы считаете, что что-то можно улучшить или оптимизировать, не стесняйтесь это сделать!
 
-Thank you in advance!
-# Contributions
-You may fork this project and submit pull requests ***if you wish***, it will be very appreciated!\
-You may find various Credits everywhere through out the code, make sure to check them out!
+Спасибо заранее!
 
-**Thanks to all contributors who have submitted pull requests to improve this project!**
-**IMPORTANT**
-- The schema does not use ply:IsCombine(), use Schema:IsCombine(ply) instead! (Look at sh_schema to look at more code.)
+# Вклады
+Вы можете форкнуть этот проект и отправить запросы на слияние ***если хотите***, это будет очень оценено!\
+Вы можете найти различные кредиты по всему коду, обязательно ознакомьтесь с ними!
 
-# Plugins
-This schema includes custom and open-source plugins.
-If you want to add any to fit your roleplay server, you can find some [here](https://plugins.gethelix.co/all/).
-# Donations
-If you feel generous and want to donate, you can do so [here](https://paypal.me/theb3ta).
+**Спасибо всем участникам, которые отправили запросы на слияние для улучшения этого проекта!**
+
+**ВАЖНО**
+- Схема не использует ply:IsCombine(), вместо этого используйте Schema:IsCombine(ply)! (Смотрите sh_schema для более подробного кода.)
